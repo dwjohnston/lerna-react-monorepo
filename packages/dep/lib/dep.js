@@ -3,5 +3,5 @@
 module.exports = dep;
 
 function dep() {
-    // TODO
+    return Math.random();
 }

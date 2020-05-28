@@ -5,7 +5,7 @@
   "author": "David Johnston <djohnston@whispir.com>",
   "homepage": "https://bitbucket.org/whispirdevops/react-monorepo-test/packages/react-dep#readme",
   "license": "ISC",
-  "main": "lib/react-dep.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -18,6 +18,15 @@
     "url": "git+ssh://git@bitbucket.org/whispirdevops/react-monorepo-test.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "babel src --out-dir lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "@babel/preset-react": "^7.10.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
