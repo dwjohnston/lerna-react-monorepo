@@ -1,0 +1,23 @@
+{
+  "name": "react-dep",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "David Johnston <djohnston@whispir.com>",
+  "homepage": "https://bitbucket.org/whispirdevops/react-monorepo-test/packages/react-dep#readme",
+  "license": "ISC",
+  "main": "lib/react-dep.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/whispirdevops/react-monorepo-test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
