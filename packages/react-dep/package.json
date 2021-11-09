@@ -1,6 +1,7 @@
 {
   "name": "react-dep",
   "version": "0.0.0",
+  "private": true,
   "description": "> TODO: description",
   "author": "David Johnston <djohnston@whispir.com>",
   "homepage": "https://bitbucket.org/whispirdevops/react-monorepo-test/packages/react-dep#readme",
