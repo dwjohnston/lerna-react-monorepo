@@ -18,6 +18,7 @@
     "url": "git+ssh://git@bitbucket.org/whispirdevops/react-monorepo-test.git"
   },
   "scripts": {
+    "build": "echo build", 
     "test": "echo \"Error: run tests from root\" && exit 1"
   }
 }
